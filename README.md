@@ -4,7 +4,7 @@ A simple and responsive To-Do List web app built with HTML, CSS, JavaScript, and
 It allows users to add, edit, and delete tasks with persistent storage using `localStorage`.
 
 🔗 **Live Demo:** 
-https://chiragahir1.github.io/List/
+https://chiragahir1.github.io/To-do-/
 
 ---
 
