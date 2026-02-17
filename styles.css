@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
 }
 
 .todo-container {
@@ -57,3 +57,4 @@ body {
     justify-content: space-between;
     cursor: pointer;
 }
+
