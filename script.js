@@ -77,6 +77,7 @@ function resetForm() {
     taskTitle.value = "";
     taskDate.value = "";
     taskDesc.value = "";
+    errorMessage.innerHTML = "";
 }
 
 function deleteTask(index) {
@@ -104,4 +105,5 @@ function closeModal() {
         saveTaskBtn.removeAttribute("data-bs-dismiss");
     }, 100);
 }
+
 
