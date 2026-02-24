@@ -1,10 +1,10 @@
-let form = document.getElementById("taskModal");
-let taskTitle = document.getElementById("taskTitle");
-let taskDate = document.getElementById("taskDate");
-let taskDesc = document.getElementById("taskDesc");
-let errorMessage = document.getElementById("errorMessage");
-let taskList = document.getElementById("taskList");
-let saveTaskBtn = document.getElementById("saveTaskBtn");
+const form = document.getElementById("taskModal");
+const taskTitle = document.getElementById("taskTitle");
+const taskDate = document.getElementById("taskDate");
+const taskDesc = document.getElementById("taskDesc");
+const errorMessage = document.getElementById("errorMessage");
+const taskList = document.getElementById("taskList");
+const saveTaskBtn = document.getElementById("saveTaskBtn");
 
 let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 let editingIndex = null;
@@ -87,7 +87,7 @@ function deleteTask(index) {
 }
 
 function editTask(index) {
-    let task = tasks[index];
+    const task = tasks[index];
     taskTitle.value = task.title;
     taskDate.value = task.date;
     taskDesc.value = task.description;
@@ -99,7 +99,8 @@ function updateLocalStorage() {
 }
 
 function closeModal() {
-    let modal = bootstrap.Modal.getInstance(form);
+    const modal = bootstrap.Modal.getInstance(form);
     modal.hide();
 }
+
 
