@@ -99,11 +99,7 @@ function updateLocalStorage() {
 }
 
 function closeModal() {
-    saveTaskBtn.setAttribute("data-bs-dismiss", "modal");
-    saveTaskBtn.click();
-    setTimeout(() => {
-        saveTaskBtn.removeAttribute("data-bs-dismiss");
-    }, 100);
+    let modal = bootstrap.Modal.getInstance(form);
+    modal.hide();
 }
-
 
