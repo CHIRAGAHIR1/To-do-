@@ -1,11 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: 'DM Sans', system-ui, sans-serif;
     margin: 0 50px;
-    background-color: #f2f2f2;
+    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: auto;
+    padding-top: 100px;
 }
 
 .todo-container {
